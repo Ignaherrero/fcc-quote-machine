@@ -1,18 +1,23 @@
 :root {
   font-family: "Merienda One", "Open Sans", sans-serif;
   font-size: 16px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+p {
+  margin: 0;
 }
 
 body {
   height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .quote-box {
-  display: flex;
-  flex-flow: row wrap;
   width: 70vw;
   justify-content: space-evenly;
   color: white;
@@ -27,7 +32,6 @@ h1 {
 .text,
 .author {
   background-color: white;
-  width: 70vw;
   font-size: 2rem;
 }
 
@@ -58,9 +62,15 @@ h1 {
 
 .new-quote {
   font-size: 2rem;
-  order: 1;
   background-color: white;
   margin: 1rem;
-  border: 5px none;
+  outline: none;
+  border-style: none;
+  border-radius: 5px;
   cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
 }
