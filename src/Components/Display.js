@@ -3,8 +3,8 @@ import React from 'react';
 function Machine(props) {
   return (
     <div>
-      <p id="text">{props.state.newQuote}</p>
-      <p id="author">-{props.state.newAuthor}</p>
+      <p className="text" id="text">{props.state.newQuote}</p>
+      <p className="author" id="author">-{props.state.newAuthor}</p>
     </div>
   );
 }

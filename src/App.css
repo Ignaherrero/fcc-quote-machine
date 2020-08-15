@@ -1,4 +1,4 @@
-#root {
+:root {
   font-family: "Merienda One", cursive;
   height: 100vh;
   display: flex;
@@ -6,33 +6,38 @@
   justify-content: center;
   font-size: 16px;
 }
-#quote-box {
+
+.quote-box {
   display: flex;
   flex-flow: row wrap;
   width: 70vw;
   justify-content: space-evenly;
   color: white;
 }
+
 h1 {
   color: white;
   font-size: 2rem;
   text-align: center;
   margin: 15px;
 }
-#text,
-#author {
+
+.text,
+.author {
   background-color: white;
   text-align: center;
   width: 70vw;
   margin: 0;
   font-size: 2rem;
 }
-#text {
+
+.text {
   min-height: 20vh;
   padding: 15px;
   border-radius: 5px 5px 0px 0px;
 }
-#author {
+
+.author {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   text-align: right;
@@ -40,7 +45,8 @@ h1 {
   padding-right: 20px;
   border-radius: 0px 0px 5px 5px;
 }
-#tweet-quote {
+
+.tweet-quote {
   float: left;
   font-size: 2rem;
   background-color: white;
@@ -48,7 +54,8 @@ h1 {
   padding: 1px 6px;
   margin: 15px;
 }
-#new-quote {
+
+.new-quote {
   font-size: 2rem;
   font-family: "Open Sans", sans-serif;
   order: 5;

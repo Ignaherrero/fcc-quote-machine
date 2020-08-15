@@ -69,12 +69,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div id="container">
+      <div className="container">
         <h1>Random Quote Machine</h1>
-        <div id="quote-box">
+        <div className="quote-box" id="quote-box">
           <Display state={this.state} onClick={this.onClick} />
-          <button id="new-quote" onClick={this.handleClick}><i className="fas fa-paper-plane"></i> New Quote</button>
-          <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${this.state.newQuote + " -" + this.state.newAuthor}`} ><i className="fab fa-twitter"></i></a>
+          <button className="new-quote" id="new-quote" onClick={this.handleClick}><i className="fas fa-paper-plane"></i> New Quote</button>
+          <a className="tweet-quote" id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${this.state.newQuote + " -" + this.state.newAuthor}`} ><i className="fab fa-twitter"></i></a>
         </div >
       </div >
     );
