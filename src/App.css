@@ -1,10 +1,13 @@
 :root {
-  font-family: "Merienda One", cursive;
+  font-family: "Merienda One", "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+body {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
 }
 
 .quote-box {
@@ -19,21 +22,19 @@ h1 {
   color: white;
   font-size: 2rem;
   text-align: center;
-  margin: 15px;
 }
 
 .text,
 .author {
   background-color: white;
-  text-align: center;
   width: 70vw;
-  margin: 0;
   font-size: 2rem;
 }
 
 .text {
   display: block;
   font-style: normal;
+  text-align: center;
   padding: 1rem;
   border-radius: 5px 5px 0px 0px;
 }
@@ -42,29 +43,24 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   text-align: right;
-  padding-bottom: 20px;
-  padding-right: 20px;
+  padding-bottom: 1.3rem;
+  padding-right: 1.3rem;
   border-radius: 0px 0px 5px 5px;
 }
 
 .tweet-quote {
-  float: left;
   font-size: 2rem;
   background-color: white;
   border-radius: 5px;
   padding: 1px 6px;
-  margin: 15px;
+  margin: 1.2rem;
 }
 
 .new-quote {
   font-size: 2rem;
-  font-family: "Open Sans", sans-serif;
-  order: 5;
+  order: 1;
   background-color: white;
-  margin: 15px;
-  border-style: none;
-  border-radius: 5px;
-  position: relative;
+  margin: 1rem;
+  border: 5px none;
   cursor: pointer;
-  outline: none;
 }
